@@ -1,2 +1,2 @@
 # latihan-dart
-Contoh bahasa pemrograman Dart
+Pengenalan bahasa pemrograman Dart: Contoh bahasa pemrograman Dart
