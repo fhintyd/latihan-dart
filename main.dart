@@ -53,8 +53,6 @@ void main() {
     cls();
     print(
         'Kalkulator\nNIP : ARN241-12056\nMenu:\n1. Penambahan\n2. Perkalian\n3. Faktorial\n4. Tanggal hari ini\n5. Keluar');
-
-    //print("Please enter number only\nEnter number:");
     stdout.write("\nMasukkan angka 1 s/d 5\n=> ");
     try {
       int? number = int.parse(stdin.readLineSync()!);
@@ -92,16 +90,11 @@ void main() {
           goExit = true;
           break;
         default:
-          /*print("\nMasukkan angka sesuai menu!\n");
-          stdout.write("Tekan tombol  Enter! ");*/
           break;
       }
-
-      //goExit = true;
     } catch (e) {
-      /*print("\nMasukkan angka sesuai menu!\n");
-      stdout.write("Tekan tombol  Enter! ");
-      stdin.readLineSync();*/
+      // kalo error masuk sini
+      print("Ada ERROR!");
     }
   }
 }
